@@ -1,6 +1,6 @@
 services:
-  - type: worker
-    name: harshith-support-bot
+  - type: web
+    name: supportbot
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt

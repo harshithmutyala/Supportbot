@@ -1,0 +1,16 @@
+{
+  "name": "Support Bot",
+  "description": "Telegram Support Bot created by Mutyala Harshith",
+  "repository": "https://github.com/HarshithMutyala/Supportbot",
+  "keywords": ["telegram", "bot", "support"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "ADMIN_CHAT_ID": {
+      "description": "Admin Telegram ID",
+      "required": true
+    }
+  }
+}
